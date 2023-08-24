@@ -1,3 +1,8 @@
+@font-face {
+    font-family: script-mt-bold;
+    src: url(font-family/script-mt-bold.ttf);
+  }
+
 *{
 margin: 0rem;
 padding: 0rem;
@@ -52,10 +57,10 @@ body{
 
 }
 .brand{
-    /* margin-top: 1rem;
-    margin-left:4rem ; */
-    margin-top: 2rem;
+    font-family: script-mt-bold;
+    margin-top: 1rem;
     padding-left: 5rem;
+    font-size:2.5rem;
 }
 .options-list>li>a{
     text-decoration: none;
