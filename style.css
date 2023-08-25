@@ -69,15 +69,44 @@ body{
 }
 
 .section-general{
-    margin: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
 }
 
-h1{
-    font-size: 2rem;
 
+.img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .img-phone{
-    width: 10rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+}
 
+.general-description{
+    width: 50%;
+    color: #D9D9D9;
+
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.description>h3{
+    color: #747f87;
+}
+
+.buttons{
+    display: flex;
+  
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
 }
