@@ -259,5 +259,29 @@ main{
 
 .section-blog-twitter{
     width: 100%;
+    margin: 5rem 0rem 5rem 0rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle-blog{
+    display: flex;
+    align-items: center;
+}
+
+.tittle-blog>img{
+    width: 2.5rem;
+}
+
+.content-blog{
+    display: flex;
+    align-items: center;
+}
+
+.content-blog>img{
+    margin: 3rem 3rem 0rem 0rem;
+    width: 12rem;
+    border: 0.5rem solid white;
+
 }
