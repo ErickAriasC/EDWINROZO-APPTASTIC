@@ -21,7 +21,7 @@ body{
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: #4C5B66 ;
+    background-color: #4b5a65 ;
 }
 
 .nav-bar{
@@ -204,3 +204,55 @@ main{
     border-radius: 0.5rem;
 }
 
+.section-projects{
+    width: 100%;
+    color: #4C5B66;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-projects>div{
+    width: 100%;
+}
+.section-projects>div{
+    width: 100%;
+    /* background-color: #0088e9; */
+}
+.select-project{
+    width: 100%;
+    display: flex;
+    
+}
+
+
+.select-project>img{
+    margin-left: 9rem;
+    margin-right:0.5rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+}
+.select-project>h2{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.projects{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.projects>a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.projects>a>img{
+    width: 20rem;
+    height: 15rem;
+    border: 0.5rem solid white;
+    margin: 2rem;
+}

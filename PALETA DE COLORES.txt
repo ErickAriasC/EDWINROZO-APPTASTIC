@@ -3,9 +3,10 @@ gris oscuro #3D4850
 gris cuando se señala #3b454c
 gri barra icono #ebebeb
 gris iconos #bcbcbc
-titulos #BAC0C4
+titulos #BAC0C4 
+gris logos #7d8f9b 
 letra #D9D9D9
 azul boton #3F98D3
 azul redireccion(boton) #4E93CD
 azul subrallado #9EC9E8
-
+verde icono #9BC533
