@@ -256,3 +256,8 @@ main{
     border: 0.5rem solid white;
     margin: 2rem;
 }
+
+.section-blog-twitter{
+    width: 100%;
+    display: flex;
+}
