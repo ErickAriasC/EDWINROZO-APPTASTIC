@@ -161,21 +161,22 @@ h1{
 }
 
 main{
-    width: 100%;
+    width: 95%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f9f9f9;
-
+    padding: 5%;
 }
 
 .section-services{
-    background-color: red;
     width: 100%;
+    height: auto;
     display: flex;
     justify-content:space-between;    
     align-items: center;
+    /* margin: 3rem ; */
 }
 
 .card-services{
@@ -212,7 +213,8 @@ main{
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .section-projects>div{
@@ -221,13 +223,13 @@ main{
 .select-project{
     width: 100%;
     display: flex;
-    
+    margin-bottom: 1rem;
 }
 
 
 .select-project>img{
 
-    width: 4rem;
+    width: 2rem;
     display: flex;
     align-items: center;
 }
@@ -235,7 +237,7 @@ main{
     width: 15rem;
     display: flex;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: #5c6a73;
 }
 .projects{
@@ -248,7 +250,7 @@ main{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #3d4750;
+
 }
 .projects>a>img{
     width: 20rem;
@@ -263,7 +265,6 @@ main{
     justify-content: center;
     align-items: center;
     font-size: 0.8rem;
-    background-color: yellow;
 
 }
 
