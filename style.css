@@ -161,7 +161,7 @@ h1{
 }
 
 main{
-    width: 95%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -243,7 +243,7 @@ main{
 .projects{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .projects>a{
@@ -264,13 +264,15 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.8rem;
+    font-size: 1rem;
 
 }
 
 .blog{
-    width: 50%;
-    /* margin-right: 6rem; */
+    width: 45%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .tittle-blog{
@@ -284,25 +286,59 @@ main{
 }
 
 .content-blog{
+    margin-top:2rem ;
+    font-size: 1.1rem;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .content-blog>img{
-    margin: 3rem 3rem 0rem 0rem;
-    width: 12rem;
+    /* margin: 3rem 3rem 0rem 0rem; */
+    width: 18rem;
     border: 0.5rem solid white;
 
+}
+
+.content{
+    margin-left: 1rem;
+    width: 80%;
+    height: auto;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .content>h3 {
     color: #4b5a65;
 }
+.content>h4{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color:#c0c0c0 ;
+}
+
+.content>h4>a{
+    text-decoration: none;
+    color: #3F98D3;
+}
+
+.content>h5{
+    color: #dedddd;
+}
+
+.blog>a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #3F98D3;
+    font-size: 1.3rem;
+}
 
 .twitter{
-    width: 50%;
-    margin-left: 6rem;
+    width: 45%;
+    height: 40rem;
+    margin-left: 10rem;
 }
+
 .tittle-twitter{
     display: flex;
     align-items: center;
@@ -311,4 +347,38 @@ main{
 
 .tittle-twitter>img{
     width: 2rem;
+}
+
+.content-twitter{
+    margin-top:2rem ;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.content-twitter>h3{
+    color: #5c6a73;
+}
+.content-twitter>h4{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color:#c0c0c0 ;
+}
+
+.content-twitter>h4>a{
+    text-decoration: none;
+    color: #3F98D3;
+}
+
+.content-twitter>h5{
+    margin-bottom: 2rem;
+    color: #dedddd;
+}
+
+.content-twitter>a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #3F98D3;
+    font-size: 1.3rem;
 }
